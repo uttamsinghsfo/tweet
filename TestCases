@@ -1,0 +1,20 @@
+To test run these in browser, and side-by-side check tomcat/logs/catalina.out file for logs:
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=first%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/followSomeone?fromUser=Steve&toUser=uttam
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=first%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=second%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=third%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getTop100
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/followSomeone?fromUser=Arun&toUser=Steve
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Arun&toUser=Steve&text=three%20half%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=fourth%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=fifth%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=Arun&text=six%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=Steve&toUser=uttam&text=seven%20tweet
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/unfollowSomeone?fromUser=Steve&toUser=uttam
+http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=Steve&num=3
