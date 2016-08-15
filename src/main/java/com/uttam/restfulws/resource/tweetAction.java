@@ -22,7 +22,7 @@ public class tweetAction {
     
     public tweetAction() {}
     
-    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/followSomeone?fromUser=shekhar&toUser=uttam
+    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/followSomeone?fromUser=steve&toUser=uttam
     @GET
     @Path("/followSomeone")
     @Produces("application/json")
@@ -47,7 +47,7 @@ public class tweetAction {
         return mb;
     }
     
-    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/unfollowSomeone?fromUser=shekhar&toUser=uttam
+    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/unfollowSomeone?fromUser=steve&toUser=uttam
     @GET
     @Path("/unfollowSomeone")
     @Produces("application/json")
@@ -72,7 +72,7 @@ public class tweetAction {
         return mb;
     }
     
-    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=shekhar&toUser=uttam&text=first%20tweet
+    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/postSomeone?fromUser=steve&toUser=uttam&text=first%20tweet
     @GET
     @Path("/postSomeone")
     @Produces("application/json")
@@ -101,7 +101,7 @@ public class tweetAction {
         return mb;
     }
     
-    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=shekhar&num=2
+    // http://localhost:8080/uttam2-1.0/rest/tweetDesign/getUserTweet?fromUser=steve&num=2
     @GET
     @Path("/getUserTweet")
     @Produces("application/json")
